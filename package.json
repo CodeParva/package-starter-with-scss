@@ -1,10 +1,12 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "name": "@CodeParva/package-starter-with-scss",
+  "author": "Codeparva Technologies Pvt Ltd",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@vinayg-cp"
+    "registry": "https://npm.pkg.github.com/@CodeParva"
   },
   "files": [
     "dist"
@@ -44,17 +46,15 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@vinayg-cp/package-starter-with-scss",
-  "author": "Vinay Gopalaiah",
   "module": "dist/package-starter-with-scss.esm.js",
   "size-limit": [
     {
       "path": "dist/package-starter-with-scss.cjs.production.min.js",
-      "limit": "100 KB"
+      "limit": "10 KB"
     },
     {
       "path": "dist/package-starter-with-scss.esm.js",
-      "limit": "100 KB"
+      "limit": "10 KB"
     }
   ],
   "devDependencies": {

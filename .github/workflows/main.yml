@@ -14,10 +14,10 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@vinayg-cp'
+          scope: '@CodeParva'
       - run: npm install
       - run: npm run build
-      - run: echo "registry=https://npm.pkg.github.com/@vinayg-cp" >> .npmrc
+      - run: echo "registry=https://npm.pkg.github.com/@CodeParva" >> .npmrc
       - name: Publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
