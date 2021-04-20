@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "license": "MIT",
-  "name": "@CodeParva/package-starter-with-scss",
+  "name": "@codeparva/package-starter-with-scss",
   "author": "Codeparva Technologies Pvt Ltd",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

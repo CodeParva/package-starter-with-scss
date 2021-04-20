@@ -17,7 +17,7 @@ jobs:
           scope: '@CodeParva'
       - run: npm install
       - run: npm run build
-      - run: echo "registry=https://npm.pkg.github.com/@CodeParva" >> .npmrc
+      - run: echo "registry=https://npm.pkg.github.com/@codeparva" >> .npmrc
       - name: Publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
